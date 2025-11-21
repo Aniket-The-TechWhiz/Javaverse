@@ -15,6 +15,9 @@ public class typeconversion {
         int c=(int)b; //explicit type conversion and casting from double to int
         System.out.println("The value of c is: " +c);
 
+        int x=257;
+        byte b1=(byte)x;
+        System.out.println("The value of b1 is: " +b1); //it will modulo 257 % range which is 126 so output is 1
         String str="100";
         int num=Integer.parseInt(str); //string to integer conversion where Integer is wrapper class
         System.out.println("The value of num is: " +num);
