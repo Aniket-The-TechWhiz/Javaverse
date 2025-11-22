@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class OptimalPageReplacemnt {
     public static void main(String[] args) {
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of frames: ");
         int framesCount = sc.nextInt();
@@ -73,21 +73,8 @@ public class OptimalPageReplacemnt {
         System.out.println("\nTotal Hits: " + hit);
         System.out.println("Total Faults: " + fault);
 
-        sc.close();*/
+        sc.close();
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Hello World");
-
-            for (int j = 0; j < 3; j++) {
-                System.out.println("Inner Loop: " + j);
-                break;
-            }
-            System.out.println("Outer Loop: ");
-            if (i == 0) {
-                break;
-            }
-            System.out.println("After If");
-        }
     }
 
 }
