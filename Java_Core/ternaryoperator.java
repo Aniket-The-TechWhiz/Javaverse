@@ -4,7 +4,7 @@ where condition gets true the expression1 will store in resutl else expression2 
 like in below exampel if n%2==0 is true then "Even number" will store in result else "odd number" will store in result
 */
 
-package Basic;
+package Java_Core;
 
 public class ternaryoperator {
     public static void main (String args[])

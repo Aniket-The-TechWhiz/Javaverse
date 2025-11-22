@@ -2,7 +2,7 @@
 for example if a small container is sotred in a large container then it is called implicit type conversion and widening,
 and if a large container is stored in a small container then it is called explicit type conversion and narrowing
  */
-package Basic;
+package Java_Core;
 
 public class typeconversion {
     public static void main (String args[])
