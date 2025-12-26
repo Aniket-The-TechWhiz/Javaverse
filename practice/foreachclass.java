@@ -6,7 +6,7 @@ public class foreachclass {
         int arr[]={12,34,343,23,22,13};
         for (int i:arr)
         {
-          //  System.out.println(i);
+            System.out.println(i);
         }
 
         int arr1[]=new int[3];
@@ -16,7 +16,7 @@ public class foreachclass {
         }
         for (int i:arr1)
         {
-           // System.out.println(i);
+            System.out.println(i);
         }
 
         int arr2[]={1,2,2,2,2,3,4,2,2,5,2,2,6,7};
