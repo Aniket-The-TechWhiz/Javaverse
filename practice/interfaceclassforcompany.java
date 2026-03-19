@@ -1,4 +1,4 @@
-package practice;
+
 
 public class interfaceclassforcompany {
     public static void main (String args[])

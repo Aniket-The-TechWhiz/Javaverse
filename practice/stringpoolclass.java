@@ -1,5 +1,3 @@
-package practice;
-
 public class stringpoolclass {
     public static void main (String args[])
     {

@@ -1,4 +1,4 @@
-package practice;
+
 
 public class foreachclass {
     public static void main(String args[])

@@ -1,4 +1,3 @@
-package practice;
 
 public class switchcase {
     public static void main(String args[])

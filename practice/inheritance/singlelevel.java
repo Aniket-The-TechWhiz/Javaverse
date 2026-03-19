@@ -1,4 +1,4 @@
-package practice.inheritance;
+package inheritance;
 
 public class singlelevel{
     public static void main(String args[]) {

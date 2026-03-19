@@ -1,4 +1,5 @@
-package practice.inheritance;
+package inheritance;
+
 class grandparent {
     void greet() {
         System.out.println("Hello from Grandparent");
