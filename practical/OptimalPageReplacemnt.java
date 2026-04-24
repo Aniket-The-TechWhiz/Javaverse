@@ -74,7 +74,6 @@ public class OptimalPageReplacemnt {
         System.out.println("Total Faults: " + fault);
 
         sc.close();
-
     }
 
 }
