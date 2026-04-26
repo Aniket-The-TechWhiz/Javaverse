@@ -12,6 +12,7 @@ class AddTwoNumberAndReturnSum{
     int a=sc.nextInt();
     System.out.print("Enter number 2: ");
     int b=sc.nextInt();
+    sc.close();
     System.out.println("("+a+"+"+b+") ="+sum(a,b));
   }
 }

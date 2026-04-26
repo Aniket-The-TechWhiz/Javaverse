@@ -10,6 +10,7 @@ public class M1{
     Scanner sb= new Scanner(System.in);
     System.out.print("Enter user Name:");
     String name=sb.next();
+    sb.close();
     System.out.println(sayHello(name));
   }
 }
