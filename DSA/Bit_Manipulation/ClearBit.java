@@ -1,3 +1,11 @@
+/*
+clear the 3rd bit (position = 2) of a number n. (n = 0101)
+Bit Mask: 1<<i
+Operation: AND with NOT
+
+first do bitmask and perform not on bitmask then perform the and operation 
+*/
+
 class ClearBit{
   public static void main(String args[]){
     int binaryValue=5;

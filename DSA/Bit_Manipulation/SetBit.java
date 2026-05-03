@@ -1,3 +1,9 @@
+/*
+Set the 2nd bit (position = 1) of a number n. (n = 0101)
+Bit Mask: 1<<i
+Operation: OR
+*/
+
 class SetBit{
   public static void main(String args[]){
     int binaryValue=5;

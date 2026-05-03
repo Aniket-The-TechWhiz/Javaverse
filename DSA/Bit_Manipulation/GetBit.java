@@ -1,3 +1,9 @@
+/*
+Get the 3rd bit (position = 2) of a number n. (n = 0101)
+Bit Mask: 1<<i
+Operation: AND
+*/
+
 class GetBit{
 
   public static String getBit(int binaryValue,int pos){
