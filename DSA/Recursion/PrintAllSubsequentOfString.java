@@ -1,4 +1,5 @@
 //Print all Subsequent of a String 
+//Time complexity O(2^n)
 public class PrintAllSubsequentOfString {
     protected static void subsequence(String str,int idx,String newString){
         
