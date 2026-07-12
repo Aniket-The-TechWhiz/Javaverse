@@ -19,7 +19,7 @@ class Child extends Parent {
         System.out.println("Show inside Child Class");
     }
 }
-class C {
+class C_MainOverride {
     public static void main (String args[]){
         // Parent obj1=new Parent();
         // obj1.main(null);

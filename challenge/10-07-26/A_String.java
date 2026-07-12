@@ -1,4 +1,4 @@
-class A{
+class A_String{
     public static void main (String args[]){
         System.out.println(1+2+"hello"); //3hello
         System.out.println("hello"+1+3); //hello13

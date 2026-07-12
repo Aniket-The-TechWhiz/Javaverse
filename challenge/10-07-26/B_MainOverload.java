@@ -1,4 +1,4 @@
-class B {
+class B_MainOverload {
     //we can overlad the main method
     public static void main (String args[]){
         System.out.println("Enter in main method");
