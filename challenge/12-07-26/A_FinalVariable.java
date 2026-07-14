@@ -1,11 +1,11 @@
 class B{
     final int num;
     B(){
-        num=0;
+        num=01;
     }
 }
 
-class A {
+class A_FinalVariable {
     public static void main (String args[]){
         B obj=new B();
         System.out.println(obj.num);
