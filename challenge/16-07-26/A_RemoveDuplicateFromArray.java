@@ -14,7 +14,6 @@ public class A_RemoveDuplicateFromArray {
         for(int i=0;i<rmd.length;i++){
             rmd[i]=nums[i];
         }
-        //return j+1;
     }
     public static void main (String args[]){
         int arr[]={3,4,2,3,5,1,1,3,2,5,6};
