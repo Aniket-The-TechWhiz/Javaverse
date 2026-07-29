@@ -12,7 +12,11 @@ class C_LowercaseToUppercase{
     return new String(ch);
   }
   public static void main (String args[]){
-    String str="abc";
-    System.out.println(getLowercaseToUppercase(str));
+    String str="";
+    try {
+      System.out.println(getLowercaseToUppercase(str));
+    }catch(Exception e){
+      System.out.println(e);
+    }
   }
 }

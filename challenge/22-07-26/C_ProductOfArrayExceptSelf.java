@@ -1,5 +1,5 @@
 class C_ProductOfArrayExceptSelf{
-  //my logic overthinking 
+  //my logic overthinking
   /*public static int [] productOfArrayExceptSelf(int arr[]){
   if(arr==null || arr.length==0 || arr.length<=2){
     throw new IllegalArgumentException("Cannot product this array array must contains more than 2 elements");
@@ -26,7 +26,7 @@ class C_ProductOfArrayExceptSelf{
   }
     return newArr;
   }*/
- 
+
   public static int [] productOfArrayExceptSelf(int arr[]){
     if(arr==null || arr.length==0 || arr.length<=2){
       throw new IllegalArgumentException("Cannot product this array array must contains more than 2 elements");

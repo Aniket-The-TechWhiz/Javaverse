@@ -1,6 +1,7 @@
 class C_StringPalindrome{
   public static boolean isStringPalindrome(String str){
-    if(str==null){ throw new IllegalArgumentException("String must me not null");}
+    if(str==null){ throw new IllegalArgumentException("String must be not null");}
+    str=str.toLowerCase();
     String newStr="";
     for(int i=str.length()-1;i>=0;i--){
       newStr+=str.charAt(i);
@@ -11,7 +12,7 @@ class C_StringPalindrome{
     return false;
   }
   public static void main (String args[]){
-    String str="oyo";
+    String str="oyO";
     try{
       System.out.println(isStringPalindrome(str) ? "String is Palindrome" : "String is not Palindrome");
     }catch(Exception e){
